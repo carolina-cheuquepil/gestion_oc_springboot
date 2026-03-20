@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: gestion_oc_activos
+  datasource:
+    url: jdbc:mysql://64.227.83.43:3306/gestion_oc_activos?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: springapp
+    password: TuClaveSegura123!
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
